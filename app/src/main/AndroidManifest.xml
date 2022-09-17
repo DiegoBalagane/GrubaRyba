@@ -50,9 +50,7 @@
             android:exported="false" />
         <activity
             android:name=".TutorialActivity"
-            android:exported="false"
-            android:label="@string/title_activity_tutorial"
-            android:theme="@style/Theme.Chucichodiz.NoActionBar" />
+            android:exported="false" />
         <activity
             android:name=".AtlasActivity"
             android:exported="false" />
