@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <item android:title="Konto">
+
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_account"
+                    android:icon="@drawable/ic_baseline_account_circle_24"
+                    android:title="Moje konto"
+
+                    />
+
+                <item
+                    android:id="@+id/nav_home"
+                    android:icon="@drawable/ic_baseline_home_24"
+                    android:title="Strona główna"
+
+                    />
+
+
+
+                <item
+                    android:id="@+id/nav_mess"
+                    android:icon="@drawable/ic_baseline_message_24"
+                    android:title="Wiadomości"
+                    />
+
+                <item
+                    android:id="@+id/nav_logout"
+                    android:icon="@drawable/ic_baseline_login_24"
+                    android:title="Wyloguj  "
+                    />
+
+            </group>
+        </menu>
+
+
+    </item>
+
+
+
+
+    <item android:title="Moduły">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_atlas"
+                    android:icon="@drawable/ic_baseline_menu_book_24"
+                    android:title="Atlas ryb i przynęt"/>
+
+                <item
+                    android:id="@+id/nav_tutorial"
+                    android:icon="@drawable/ic_baseline_event_note_24"
+                    android:title="Poradnik na Różne sytuacje"/>
+
+                <item
+                    android:id="@+id/nav_mapa"
+                    android:icon="@drawable/ic_baseline_map_24"
+                    android:title="Wędkarska mapa Poslki"/>
+
+                <item
+                    android:id="@+id/nav_ranking"
+                    android:icon="@drawable/ic_baseline_keyboard_arrow_up_24"
+                    android:title="Twoje połowy"/>
+
+                <item
+                    android:id="@+id/nav_calc"
+                    android:icon="@drawable/ic_baseline_group_add_24"
+                    android:title="Ranking wędkarzy" />
+
+                <item
+                    android:id="@+id/nav_meme"
+                    android:icon="@drawable/ic_baseline_tag_faces_24"
+                    android:title="Kącik humorystyczny"/>
+
+            </group>
+        </menu>
+    </item>
+
+
+
+
+</menu>

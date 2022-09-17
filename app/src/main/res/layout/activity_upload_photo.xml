@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingHorizontal="15dp"
+    tools:context=".UploadPhotoActivity"
+    android:background="@drawable/background">
+
+    <TextView
+        android:id="@+id/txt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="Ustaw zdjęcie "
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:src="@drawable/fish"
+        android:layout_below="@id/txt"
+        app:shapeAppearanceOverlay="@style/Circular"
+        app:strokeWidth="2dp"
+        android:layout_gravity="center"
+        android:scaleType="centerCrop"
+        android:layout_marginTop="50dp"
+        android:id="@+id/profile_image"
+        app:strokeColor="@color/white"
+        android:layout_width="300dp"
+        android:layout_height="300dp"/>
+
+
+
+    <Button
+        android:id="@+id/select_image_button"
+        android:layout_gravity="center"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/profile_image"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/button_rect"
+        android:ems="10"
+        android:gravity="center"
+        android:text="Wybierz zdjęcie"
+        android:textColor="@color/white"
+        android:textSize="18sp" />
+
+    <Button
+        android:layout_width="250dp"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_below="@id/select_image_button"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/button_rect3"
+        android:ems="10"
+        android:id="@+id/upload_photo_button"
+        android:text="zapisz zdjęcie"
+        android:textColor="@color/white"
+        android:textSize="18sp"/>
+
+
+    <Button
+        android:layout_width="250dp"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_below="@id/upload_photo_button"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/button_rect2"
+        android:ems="10"
+        android:id="@+id/default_image_button"
+        android:text="Kontynuuj bez zdjęcia"
+        android:textColor="@color/white"
+        android:textSize="16sp"/>
+
+
+</LinearLayout>
