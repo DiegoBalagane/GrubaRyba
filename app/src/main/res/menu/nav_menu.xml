@@ -55,7 +55,7 @@
                 <item
                     android:id="@+id/nav_tutorial"
                     android:icon="@drawable/ic_baseline_event_note_24"
-                    android:title="Poradnik na Różne sytuacje"/>
+                    android:title="Kalendarz wędkarski" />
 
                 <item
                     android:id="@+id/nav_mapa"
